@@ -852,8 +852,17 @@ body#appointments div.page-title {
 	text-indent: 0px;
 }
 
+.location-name {
+	font-size: 20px;
+	font-weight: 600;
+}
 
+.address {
+}
 
+#paloalto {
+	margin-top: 50px;
+}
 
 /* NAVIGATION BAR HOLDER --------------------------------------------------------*/
 
