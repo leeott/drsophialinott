@@ -1,0 +1,70 @@
+@import"reset.css"
+@import"grid.css";
+/*@import"forms.css";*/
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,600,700);*/
+
+
+
+@font-face {
+    font-family: 'odstemplikbold';
+    src: url('odstemplikbold-webfont.eot');
+    src: url('odstemplikbold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('odstemplikbold-webfont.woff') format('woff'),
+         url('odstemplikbold-webfont.ttf') format('truetype'),
+         url('odstemplikbold-webfont.svg#odstemplikbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+label, .bodyText{font-family:"AvenirLTStd45Book"; font-size:12px;color: #666666;}
+
+
+
+.alignCopy{margin-top:8em;}
+
+input.btns{
+	background-image: linear-gradient(top, #E18B74 30%, #C7593E 52%, #EF745D 87%);
+	background-image: -o-linear-gradient(top, #E18B74 30%, #C7593E 52%, #EF745D 87%);
+	background-image: -moz-linear-gradient(top, #E18B74 30%, #C7593E 52%, #EF745D 87%);
+	background-image: -webkit-linear-gradient(top, #E18B74 30%, #C7593E 52%, #EF745D 87%);
+	background-image: -ms-linear-gradient(top, #E18B74 30%, #C7593E 52%, #EF745D 87%);
+	background-image: -webkit-gradient(
+	linear,
+	left top,
+	left bottom,
+	color-stop(0.3, #E18B74),
+	color-stop(0.52, #C7593E),
+	color-stop(0.87, #EF745D)
+);
+	border-style:solid !important;
+	border:1px #fff;
+	box-shadow:0px 1px 3px #a53e23 !important;
+	color:#ffffff;	/*box-shadow:#7d8759 !important;*/
+	corner-radius:4px 4px 4px 4px;
+	width:60px;
+	height:20px;
+}
+
+p {padding-bottom:4px;}
+
+/*----- buttons & links -----*/
+a {
+	color:#82a9b5;
+	cursor:pointer;
+}
+	a:hover {text-decoration: none;}
+
+
+	/*AvenirLTStd45Book*/
+
+@font-face {
+    font-family:'AvenirLTStd45Book';
+    src: url('avenirltstd-book-webfont.eot');
+    src: url('avenirltstd-book-webfont.eot?#iefix') format('embedded-opentype'),
+         url('avenirltstd-book-webfont.woff') format('woff'),
+         url('avenirltstd-book-webfont.ttf') format('truetype'),
+         url('avenirltstd-book-webfont.svg#AvenirLTStd45Book') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}

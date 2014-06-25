@@ -1,0 +1,16 @@
+@charset "UTF-8";
+/* CSS Document */
+/* to make the List Items sit next to each other (display:-moz-inline-box; is to make the LI extends to the full height of their content) */
+#zWrap div.module_container ul.gallery_thumbnail li {vertical-align:middle;display:inline-block;display:-moz-inline-box;*display:inline;zoom:1;margin:0;}
+#zWrap div.module_container ul.gallery_thumbnail li a {display:-moz-inline-box;}
+#zWrap div.module_container ul.gallery_thumbnail li .toolbar-btn a {display:block;font-size:9px;font-weight:bold;white-space:nowrap;text-decoration:none;}
+/* "reset" is used here because "display:block" is inherited from ".editable" class -- this is the default styling for *all* images (that includes the "ghost" image") */
+#zWrap ul.gallery_thumbnail li img {display:inline;margin:0 16px 16px 0;}
+/* to make sure the image in the "hidden" module does not inherit any styling from the above rule */
+#zWrap ul.gallery_thumbnail li.hidden img {display:none;}
+/* dimensions for all browsers */
+#zWrap ul.gallery_thumbnail li img {width:106px;height:106px;}
+/* dimensions for Firefox 3 */
+#zWrap ul.gallery_thumbnail li img,x:-moz-any-link,x:default {width:auto;height:auto;}
+/* reset rule to clear styles that break thumbnail gllery layout (bug 2058754) */
+#zWrap ul.gallery_thumbnail li {background:none!important;border:0!important;padding:0!important;}

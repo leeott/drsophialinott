@@ -1,0 +1,440 @@
+/****************************************
+ Theme: Riverside - Derived From: Portland
+ ****************************************/
+/* #hd{min-height:72px;_height:72px}
+ #bd{min-height:370px;_height:370px}
+ #body{min-width:710px;zoom:1;width:expression(documentElement.clientWidth < 710 ? "710px" : "auto" )}
+ #doc{overflow:hidden;zoom:1;}
+ #hd{padding-bottom:1px}
+ #hContent{width:700px;margin:0 auto;padding:30px 0 20px 0}
+ #hMisc{display:none}
+ #navigation{overflow:hidden;zoom:1}
+ ul#mainNav{overflow:hidden;width:704px;margin:0 auto}
+ ul#mainNav li,ul#mainNav li a{float:left;white-space:nowrap}
+ ul#mainNav li a{_zoom:1;display:block;padding:7px 9px 5px 9px}
+ #bd{clear:left;float:left;width:677px;position:relative;left:50%;padding:10px 13px 10px 10px;				margin:20px 0 20px -352px;display:inline}
+ #pageName{padding:10px 2px 0 2px;display:none}
+ .modWrap{padding:0 2px;}
+ #body h3{margin-bottom:5px}
+ #body h4{margin-bottom:0}
+ #zB #mapZone{width:314px;height:205px}
+ #zB #drivingDirectionsLnk{top:210px}
+ #zC form#contactForm{width:170px}
+ #ft{padding:25px 0 15px 0}
+ #fContent{float:left;width:380px;position:relative;left:50%;margin-left:-40px;display:inline}
+ #fMisc{float:left;width:270px;margin-left:-680px;left:50%;display:inline}
+ #fContent:after{content:".";visibility:hidden}
+ #body #pageName,#body #zA{_height:10px;}
+ #fBadges {width:680px;margin-left:auto;margin-right:auto;}
+ #body .nav_hassub #wrapper .sub_static #subNav a {float:left;padding:2px 9px 3px;}
+ #body .nav_hassub #navigation #subNav {width: 704px;overflow:hidden;margin: 0 auto;}
+ 
+ 
+ /******************************************
+ Theme: Pinot - Derived From: Riverside
+ *******************************************/
+ 
+ 
+ 
+ 				
+ 				/*#body {
+ 					font-size: 12px;
+ 					font-family: Times,Georgia
+ 				}
+ 
+ 				
+ 				p {
+ 				}
+ 
+ 				
+ 				hr {
+ 				}
+ 		
+ 				#zA {
+ 					font-size: 18px !important;
+ 					line-height: 22px;
+ 				}
+ 
+ 				
+ 				#body h1 {
+ 					font-size: 32px;
+ 					font-weight: 400;
+ 					font-family: Times,Georgia;
+ 				}
+ 
+ 		
+ 				#pageName {
+ 					text-align: right;
+ 				}
+ 
+ 				#body h2 {
+ 					font-size: 28px;
+ 					font-weight: 700;
+ 					font-family: Times,Georgia;
+ 					text-align: left;
+ 					line-height: 30px;
+ 				}
+ 
+ 				
+ 				#body h3 {
+ 					font-size: 21px;
+ 					font-weight: 700;
+ 				}
+ 
+ 				#body h4 {
+ 					font-size: 16px;
+ 					font-weight: bold;
+ 				}
+ 
+ 				
+ 				#hd {
+ 				}
+ 
+ 		
+ 				#hMisc,
+ 				#fMisc {
+ 				}
+ 
+ 				#fContent {
+ 					font-size: 11px;
+ 				}
+ 
+ 
+ 				
+ 				
+ 				ul#mainNav li a:link,
+ 				ul#mainNav li a:visited {
+ 					font-size: 1.2em;
+ 					font-weight: 700;
+ 				}
+ 
+ 
+ 				#hd {
+ 					background-repeat:repeat-x;
+ 				}
+ 
+ 				#doc {
+ 				}
+ 
+ 				#zWrap {
+ 				}
+ 
+ 
+ 				#hd {
+ 					border-bottom-width: 1px;
+ 					border-bottom-style: solid;
+ 				}
+ 
+ 				#navigation {
+ 					border-top-width:1px;
+ 					border-top-style:solid;
+ 					border-bottom-width:1px;
+ 					border-bottom-style:solid;
+ 				}
+ 
+ 				ul#mainNav li.active {
+ 					border-left-width: medium;
+ 					border-left-style: none;
+ 					border-right-width: medium;
+ 					border-right-style: none;
+ 				}
+ 
+ 				#ft {
+ 					border-top-width:1px;
+ 					border-top-style:solid;
+ 				}
+ 
+ 
+ 				/* 
+ 		 		* direction and color of the arrow (assuming arrow sprite)
+ 		 		*/
+ 				/*#body .toggle img {
+ 					background-position: -672px -12px; 
+ 				}
+  
+ 				/*
+ 		 		* links for BOTH static and dynamic sub menus 
+ 		 		* use this rule to group declarations common to the two different types of menus (static/dynamic)
+ 		 		*/
+ 			/*	#body ul#mainNav .subNav li a,
+ 				#body .nav_hassub #navigation #subNav a {
+ 					font-size: 13px; 
+ 					font-family: arial; 
+ 				}
+ 
+ 				/*
+ 		 		* :hover and selected (active) links for BOTH static and dynamic sub menus
+ 		 		* they are both styled the same 
+ 		 		*/
+ 				/*
+ 		 		* links for static sub menus
+ 		 		*/
+ 				/*#body .nav_hassub #wrapper .sub_static #subNav a {
+ 					font-size: 12px; 
+ 				}
+ 
+ 				/*
+ 		 		* :hover and selected (active) links for static menus
+ 		 		* they are both styled the same
+ 		 		*/
+ 				/*
+ 		 		* sub menus 
+ 		 		* displays horizontally below the main nav 
+ 		 		*/
+ 				/* 
+ 		 		* sub menus (dropdown) 
+ 		 		*/
+ 				/* 
+ 		 		* re-styling of the active top list item 
+ 		 		*/
+ 				/*ul#mainNav li.active {
+ 					border-style: none;
+ 				}
+ 				
+ 
+ 
+ 
+ /********************************************************************
+ Theme: Riverside - Derived From: Portland
+ Layout: Layout 1 with no Title - Derived from: Layout 1 with no Title
+ ********************************************************************/
+/* .lo_auto1 #zA, .lo_generic_auto1 #zA {font-size:14px;padding:10px 0;_width:100%;}
+ .lo_auto1 #zB, .lo_generic_auto1 #zB {float:left;width:320px}
+ .lo_auto1 #zC, .lo_generic_auto1 #zC {float:right;width:320px}
+ .lo_auto1 #body #zA h3, .lo_generic_auto1 #body #zA h3 {font-size:21px}
+ .lo_auto1 #body #zA h4, .lo_generic_auto1 #body #zA h4 {font-size:16px}
+ .lo_auto1 #zA, .lo_generic_auto1 #zA {background:url(http://l.yimg.com/lm/lib/smb/assets/hosting/yss/themes/riverside/v_1_2_6_5/images/za.gif) 50% 100% no-repeat}
+ 
+ 
+ /***************************************************
+ Theme: Pinot - Derived From: Riverside
+ Layout: Layout 1 - Derived from: Layout 1 with Title
+ ***************************************************/
+ 
+ 
+ 
+ /*****************************************************************
+ Theme: Riverside - Derived From: Portland
+ Layout: Layout 1 with Title - Derived from: Layout 1 with no Title
+ *****************************************************************/
+ /*.lo_generic_auto1 #pageName {display:block}
+ 
+ 
+ /**************************************************************
+ Theme: Pinot - Derived From: Riverside
+ Layout: Layout 1 with Title - Derived from: Layout 1 with Title
+ **************************************************************/
+ 
+ 
+ 
+ /**************************************************************
+ Theme: Riverside - Derived From: Portland
+ Layout: Layout 2 with Title - Derived from: Layout 2 with Title
+ **************************************************************/
+ /*.lo_generic_auto5 #zA, .lo_generic_auto7 #zA {float:left;width:320px}
+ .lo_generic_auto5 #zB, .lo_generic_auto7 #zB {float:right;width:320px}
+ .lo_generic_auto5 #pageName, .lo_generic_auto7 #pageName {display:block;padding-bottom:10px}
+ .lo_generic_auto5 #zC, .lo_generic_auto7 #zC {_width:100%;clear:both;font-size:14px;padding:20px 0}
+ .lo_generic_auto5 #body #zC h3, .lo_generic_auto7 #body #zC h3 {font-size:21px}
+ .lo_generic_auto5 #body #zC h4, .lo_generic_auto7 #body #zC h4 {font-size:16px}
+ .lo_generic_auto5 #zC, .lo_generic_auto7 #zC {background:url(http://l.yimg.com/lm/lib/smb/assets/hosting/yss/themes/riverside/v_1_2_6_5/images/za.gif) 50% 0 no-repeat}
+ .lo_generic_auto5 #zB #mapZone, .lo_generic_auto7 #zB #mapZone {width:225px}
+ .lo_generic_auto5 #zC form#contactForm, .lo_generic_auto7 #zC form#contactForm {width:220px;margin-left:20px;}
+ .lo_generic_auto5 #body #zC h3, .lo_generic_auto7 #body #zC h3 {color:#375f90}
+ .lo_generic_auto5 #body #zA h3, .lo_generic_auto7 #body #zA h3 {color:#d2771a}
+ .lo_generic_auto5 #body #zB h3, .lo_generic_auto7 #body #zB h3 {color:#706d8a}
+ 
+ 
+ /**************************************************************
+ Theme: Pinot - Derived From: Riverside
+ Layout: Layout 2 with Title - Derived from: Layout 2 with Title
+ **************************************************************/
+ 
+ 
+ /**************************************************************
+ Theme: Riverside - Derived From: Portland
+ Layout: Layout 3 with Title - Derived from: Layout 2 with Title
+ **************************************************************/
+/* .lo_generic_auto7 #zA {float:left;width:400px}
+ .lo_generic_auto7 #zB {float:right;width:240px}
+ .lo_generic_auto7 #zC {_width:100%;background:url(http://l.yimg.com/lm/lib/smb/assets/hosting/yss/themes/riverside/v_1_2_6_5/images/za.gif) -55px 0 no-repeat}
+ 
+ 
+ /**************************************************************
+ Theme: Pinot - Derived From: Riverside
+ Layout: Layout 3 with Title - Derived from: Layout 3 with Title
+ **************************************************************/
+/* 
+ #body {
+ 	color: #333333;
+ }
+ 
+ #body h1 {
+ 	color: #B00068;
+ }
+ 
+ #body h2 {
+ 	color: #003663;
+ }
+ 
+ #body h3 {
+ 	color: #003663;
+ }
+ 
+ #body h4 {
+ 	color: #003663;
+ }
+ 
+ #ft {
+ 	color: #fff;
+ }
+ 
+ #body a:link,
+ #body a:visited {
+ 	color: #73194D;
+ }
+ 
+ #body a:hover,
+ #body a:focus,
+ #body a:active {
+ 	color: #73194D;
+ }
+ 		
+ #hd h1 a:link, #hd h1 a:visited {
+ 	color: #B00068;
+ 	text-decoration: none;
+ }
+ 
+ #ft a:link,
+ #ft a:visited {
+ 	color: #D6C2E0;
+ }
+ 
+ #ft a:hover,
+ #ft a:focus,
+ #ft a:active {
+ 	color: #D6C2E0;
+ }
+ 
+ ul#mainNav li a:link,
+ ul#mainNav li a:visited {
+ 	color: #362F2D;
+ }
+ 
+ body {
+ 	background-color: #73194D;
+ }
+ 
+ #doc {
+ 	background-color: #fff;
+ }
+ 
+ #bd {
+ 	background-color: #fff;
+ }
+ 
+ #hd {
+ 	background-color: #DAD2EA;
+ 	background-image: url(http://l.yimg.com/lm/themes/yhoo/ga/riverside/pinot/palette1/4.0.4/en-us/images/hd.png);
+ }
+ 
+ #navigation {
+ 	background-color: #D6C2E0;
+ }
+ 
+ #mainNav {
+ 	background-color: #D6C2E0;
+ }
+ 
+ #navigation ul#mainNav li.active a {
+ 	background-color:#CBA4CE;
+ }
+ 
+ ul#mainNav li a:hover,
+ ul#mainNav li a:active,
+ ul#mainNav li a:focus {
+ 	background-color: #D8AED7;
+ }
+ 		
+ #zA {
+ 	background-image: none !important;
+ }
+ 
+ #ft {
+ 	background-color: #73194D;
+ }
+ 
+ #hd {
+ 	border-bottom-color: #fff;
+ }
+ 
+ #navigation {
+ 	border-top-color:#BBACCD;
+ 	border-bottom-color:#BBACCD;
+ }
+ 
+ ul#mainNav li.active {
+ 	border-left-color: transparent;
+ 	border-right-color: transparent;
+ }
+ 
+ #ft {
+ 	border-top-color:#BBACCD;
+ }
+ 
+ #body ul#mainNav .subNav li a,
+ #body .nav_hassub #navigation #subNav a {
+ 	background-color: #D8AED7; 
+ 	color: #fff;
+ }
+ 
+ #body ul#mainNav .subNav li a:hover,
+ #body .nav_hassub #navigation #subNav a:hover,
+ #body ul#mainNav .subNav .active-sub a {
+ 	background-color:  #CBA4CE; 
+ }		
+ 
+ #body .nav_hassub #wrapper .sub_static #subNav a {
+ 	background-color: #CBA4CE; 
+ }
+ 
+ #body .nav_hassub #wrapper .sub_static #subNav a:hover,
+ #body .nav_hassub #wrapper .sub_static #subNav .active-sub a {
+ 	background-color: #37628F; 
+ }
+ 
+ #body .nav_hassub #navigation #subNav {
+ 	border-color: #37628F; 
+ 	background-color: #4E799F;
+ }
+ 
+ #body .sub_dynamic #mainNav .subNav {
+ 	background-color: solid 1px #37628F; 
+ }
+ 
+ .lo_generic_auto5 #zC, .lo_generic_auto7 #zC {
+ 	background-image: none !important;
+ 	background-color: transparent !important;
+ }
+ .lo_generic_auto5 #body #zC h3, .lo_generic_auto7 #body #zC h3 {
+ 	color:#003663;
+ }
+ .lo_generic_auto5 #body #zA h3, .lo_generic_auto7 #body #zA h3 {
+ 	color:#003663;
+ }
+ .lo_generic_auto5 #body #zB h3, .lo_generic_auto7 #body #zB h3 {
+ 	color:#003663;
+ }
+ .lo_generic_auto7 #zC {
+ 	background-image: none !important;
+ 	background-color: transparent !important;
+ }
+ .lo_generic_auto5 #body #zC h3, .lo_generic_auto7 #body #zC h3 {
+ 	color:#003663;
+ }
+ .lo_generic_auto5 #body #zA h3, .lo_generic_auto7 #body #zA h3 {
+ 	color:#003663;
+ }
+ .lo_generic_auto5 #body #zB h3, .lo_generic_auto7 #body #zB h3 {
+ 	color:#003663;
+ }
